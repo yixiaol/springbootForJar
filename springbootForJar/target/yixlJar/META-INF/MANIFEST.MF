@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: 2.0.1.RELEASE
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: yixl
+Implementation-Vendor-Id: org.springframework.boot
+Spring-Boot-Version: 2.0.1.RELEASE
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: com.test.HelloController
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Created-By: Apache Maven 3.5.4
+Build-Jdk: 1.8.0_191
+Implementation-URL: http://maven.apache.org
+
