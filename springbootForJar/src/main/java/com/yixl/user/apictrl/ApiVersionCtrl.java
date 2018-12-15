@@ -2,23 +2,11 @@ package com.yixl.user.apictrl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-import org.springframework.util.Assert;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.yixl.aliyun.Aliyun;
 import com.yixl.base.version.ApiVersion;
-import com.yixl.paramcheck.entity.AuthorizeIn;
-
-import javax.validation.Valid;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("{version}")
